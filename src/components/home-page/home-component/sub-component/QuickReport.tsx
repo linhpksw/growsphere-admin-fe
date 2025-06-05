@@ -57,7 +57,7 @@ const QuickReport = () => {
                     />
                   </div>
                   <h4 className="text-[22px] font-extrabold text-heading">
-                    ${todaysSells}
+                    {todaysSells} Đ
                   </h4>
                   <span className="block text-[15px] font-semibold text-bodyText mb-8">
                     Today Sells
@@ -81,7 +81,7 @@ const QuickReport = () => {
                     />
                   </div>
                   <h4 className="text-[22px] font-extrabold text-heading">
-                    ${lastSevenDaysSells}{" "}
+                    {lastSevenDaysSells}{" "} Đ
                   </h4>
                   <span className="block text-[15px] font-semibold text-bodyText mb-8">
                     {`Last 7 day's `}
@@ -106,7 +106,7 @@ const QuickReport = () => {
                     />
                   </div>
                   <h4 className="text-[22px] font-extrabold text-heading">
-                    ${lastThirtyDaysSells}
+                    {lastThirtyDaysSells} Đ
                   </h4>
                   <span className="block text-[15px] font-semibold text-bodyText mb-8">
                     {`Last 30 day's `}
@@ -134,7 +134,7 @@ const QuickReport = () => {
                     />
                   </div>
                   <h4 className="text-[22px] font-extrabold text-heading">
-                    ${lastOneYearSells}{" "}
+                    {lastOneYearSells}{" "}Đ
                   </h4>
                   <span className="block text-[15px] font-semibold text-bodyText mb-8">
                     {" "}
